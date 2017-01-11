@@ -1,0 +1,258 @@
+2017/01/04 22:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/screen.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/
+---
+2017/01/04 22:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/form.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/
+---
+2017/01/04 22:15:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/print.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/
+---
+2017/01/04 22:21:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/screen.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/
+---
+2017/01/04 22:21:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/form.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/
+---
+2017/01/04 22:21:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/print.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/
+---
+2017/01/04 22:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/screen.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/04 22:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/form.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/04 22:33:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/print.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/05 00:32:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('admin')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/admin
+---
+2017/01/05 00:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/screen.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/admin
+---
+2017/01/05 00:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/form.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/admin
+---
+2017/01/05 00:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/print.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/admin
+---
+2017/01/05 01:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/screen.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/screen.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/index
+---
+2017/01/05 01:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/form.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/form.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/index
+---
+2017/01/05 01:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/print.css".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/css/print.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/index
+---
+2017/01/05 01:19:30 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "//layouts/__bar-top".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\projects\santoto\project\protected\views\layouts\main.php(56): CController->renderPartial('//layouts/__bar...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CBaseController.php(126): require('C:\\wamp\\www\\dod...')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\dod...', Array, true)
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(784): CBaseController->renderFile('C:\\wamp\\www\\dod...', Array, true)
+#4 C:\wamp\www\dodmediagroup\projects\santoto\project\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('index')
+#10 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#11 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/index
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/07 21:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "periodos__create".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('periodos__creat...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('periodos__creat...')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('pensul/periodos...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/pensul/periodos__create
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/pensul/periodos
+---
+2017/01/07 23:04:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "periodos__active".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('periodos__activ...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('periodos__activ...')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('pensul/periodos...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/pensul/periodos__active/7
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/pensul/periodos
+---
+2017/01/07 23:08:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('periodos__activ...')
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('pensul/periodos...')
+#10 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/pensul/periodos__active/periodos
+---
+2017/01/07 23:17:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cursos".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('cursos')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('cursos')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('pensul/cursos')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/pensul/cursos
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/pensul/periodos
+---
+2017/01/07 23:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cursos__create".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('cursos__create')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('cursos__create')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('pensul/cursos__...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/pensul/cursos__create
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/pensul/cursos
+---
+2017/01/07 23:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "materias".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('materias')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('materias')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('pensul/materias')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/pensul/materias
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/pensul/cursos
+---
+2017/01/07 23:47:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "materias".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('materias')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('materias')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('pensul/materias')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/pensul/materias
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/pensul/cursos
+---
+2017/01/08 00:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "materias__create".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('materias__creat...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('materias__creat...')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('pensul/materias...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/pensul/materias__create
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/pensul/materias
+---
