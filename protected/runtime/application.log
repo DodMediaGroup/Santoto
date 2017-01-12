@@ -256,3 +256,1344 @@ Stack trace:
 REQUEST_URI=/dodmediagroup/projects/santoto/project/pensul/materias__create
 HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/pensul/materias
 ---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/font-awe...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap/css/bootstrap.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/fontello/css/fontello.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/fontello...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/fontello/css/fontello.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jqueryui...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/animate-css/animate.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/animate-...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/animate-css/animate.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/css/component.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/css/component.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/magnific-popup/magnific-popup.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/magnific...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/magnific-popup/magnific-popup.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/pace/pace.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/pace/pac...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/pace/pace.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/ios7-switch/ios7-switch.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/ios7-swi...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/ios7-switch/ios7-switch.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/sortable/sortable-theme-bootstrap.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/sortable...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/sortable/sortable-theme-bootstrap.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-datepicker/css/datepicker.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-datepicker/css/datepicker.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-icheck/skins/all.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-i...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-icheck/skins/all.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/prettify/github.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/prettify...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/prettify/github.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/styles/metro/notify-metro.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/styles/metro/notify-metro.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-animate-numbers/jquery.animateNumbers.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-a...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-animate-numbers/jquery.animateNumbers.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jqueryui/jquery-ui-1.10.4.custom.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jqueryui...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jqueryui/jquery-ui-1.10.4.custom.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-ui-touch/jquery.ui.touch-punch.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-u...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-ui-touch/jquery.ui.touch-punch.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery/jquery-1.11.1.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery/j...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-detectmobile/detect.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-d...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-detectmobile/detect.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap/js/bootstrap.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/ios7-switch/ios7.switch.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/ios7-swi...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/ios7-switch/ios7.switch.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-bootbox/bootbox.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-bootbox/bootbox.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/fastclick/fastclick.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/fastclic...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/fastclick/fastclick.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-blockui/jquery.blockUI.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-b...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-blockui/jquery.blockUI.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-slimscroll/jquery.slimscroll.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-s...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-slimscroll/jquery.slimscroll.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-sparkline/jquery-sparkline.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-s...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-sparkline/jquery-sparkline.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/js/classie.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/js/classie.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/sortable/sortable.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/sortable...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/sortable/sortable.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-fileinput/bootstrap.file-input.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-fileinput/bootstrap.file-input.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-select/bootstrap-select.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-select/bootstrap-select.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/js/modalEffects.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/js/modalEffects.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery/jquery-1.11.1.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery/j...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-select2/select2.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-select2/select2.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/pace/pace.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/pace/pac...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/pace/pace.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/magnific-popup/jquery.magnific-popup.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/magnific...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/magnific-popup/jquery.magnific-popup.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-calendar/js/bic_calendar.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-calendar/js/bic_calendar.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-datepicker/js/bootstrap-datepicker.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-icheck/icheck.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-i...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-icheck/icheck.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap/js/bootstrap.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/prettify/prettify.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/prettify...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/prettify/prettify.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/shortcut/shortcut.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/shortcut...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/shortcut/shortcut.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/notify.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/notify.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/styles/metro/notify-metro.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/styles/metro/notify-metro.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jqueryui/jquery-ui-1.10.4.custom.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jqueryui...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jqueryui/jquery-ui-1.10.4.custom.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-ui-touch/jquery.ui.touch-punch.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-u...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-ui-touch/jquery.ui.touch-punch.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-detectmobile/detect.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-d...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-detectmobile/detect.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-animate-numbers/jquery.animateNumbers.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-a...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-animate-numbers/jquery.animateNumbers.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/ios7-switch/ios7.switch.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/ios7-swi...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/ios7-switch/ios7.switch.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/fastclick/fastclick.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/fastclic...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/fastclick/fastclick.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-blockui/jquery.blockUI.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-b...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-blockui/jquery.blockUI.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-bootbox/bootbox.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-bootbox/bootbox.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-slimscroll/jquery.slimscroll.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-s...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-slimscroll/jquery.slimscroll.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-sparkline/jquery-sparkline.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-s...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-sparkline/jquery-sparkline.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/js/classie.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/js/classie.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/js/modalEffects.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/js/modalEffects.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/sortable/sortable.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/sortable...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/sortable/sortable.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-fileinput/bootstrap.file-input.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-fileinput/bootstrap.file-input.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-select/bootstrap-select.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-select/bootstrap-select.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-select2/select2.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-select2/select2.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/magnific-popup/jquery.magnific-popup.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/magnific...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/magnific-popup/jquery.magnific-popup.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/pace/pace.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/pace/pac...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/pace/pace.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-datepicker/js/bootstrap-datepicker.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-icheck/icheck.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-i...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-icheck/icheck.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-calendar/js/bic_calendar.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-calendar/js/bic_calendar.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/prettify/prettify.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/prettify...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/prettify/prettify.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/shortcut/shortcut.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/shortcut...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/shortcut/shortcut.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/notify.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/notify.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/styles/metro/notify-metro.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/styles/metro/notify-metro.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jqueryui...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/fontello/css/fontello.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/fontello...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/fontello/css/fontello.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/animate-css/animate.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/animate-...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/animate-css/animate.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/font-awe...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/css/component.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/css/component.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap/css/bootstrap.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/magnific-popup/magnific-popup.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/magnific...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/magnific-popup/magnific-popup.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/ios7-switch/ios7-switch.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/ios7-swi...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/ios7-switch/ios7-switch.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/pace/pace.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/pace/pac...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/pace/pace.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/sortable/sortable-theme-bootstrap.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/sortable...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/sortable/sortable-theme-bootstrap.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-datepicker/css/datepicker.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-datepicker/css/datepicker.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/prettify/github.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/prettify...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/prettify/github.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/styles/metro/notify-metro.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/styles/metro/notify-metro.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-icheck/skins/all.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-i...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-icheck/skins/all.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap/js/bootstrap.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery/jquery-1.11.1.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery/j...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery/jquery-1.11.1.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-ui-touch/jquery.ui.touch-punch.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-u...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-ui-touch/jquery.ui.touch-punch.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jqueryui/jquery-ui-1.10.4.custom.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jqueryui...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jqueryui/jquery-ui-1.10.4.custom.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-detectmobile/detect.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-d...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-detectmobile/detect.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-animate-numbers/jquery.animateNumbers.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-a...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-animate-numbers/jquery.animateNumbers.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap/js/bootstrap.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/ios7-switch/ios7.switch.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/ios7-swi...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/ios7-switch/ios7.switch.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/fastclick/fastclick.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/fastclic...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/fastclick/fastclick.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-blockui/jquery.blockUI.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-b...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-blockui/jquery.blockUI.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-slimscroll/jquery.slimscroll.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-s...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-slimscroll/jquery.slimscroll.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-bootbox/bootbox.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-bootbox/bootbox.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-sparkline/jquery-sparkline.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-s...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-sparkline/jquery-sparkline.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jqueryui/jquery-ui-1.10.4.custom.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jqueryui...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jqueryui/jquery-ui-1.10.4.custom.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/js/classie.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/js/classie.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/js/modalEffects.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/js/modalEffects.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/sortable/sortable.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/sortable...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/sortable/sortable.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-fileinput/bootstrap.file-input.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-fileinput/bootstrap.file-input.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-select/bootstrap-select.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-select/bootstrap-select.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-select2/select2.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-select2/select2.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-ui-touch/jquery.ui.touch-punch.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-u...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-ui-touch/jquery.ui.touch-punch.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/magnific-popup/jquery.magnific-popup.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/magnific...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/magnific-popup/jquery.magnific-popup.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/pace/pace.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/pace/pac...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/pace/pace.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-datepicker/js/bootstrap-datepicker.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-icheck/icheck.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-i...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-icheck/icheck.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-calendar/js/bic_calendar.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-calendar/js/bic_calendar.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-detectmobile/detect.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-d...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-detectmobile/detect.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/prettify/prettify.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/prettify...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/prettify/prettify.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/shortcut/shortcut.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/shortcut...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/shortcut/shortcut.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/notify.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/notify.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/styles/metro/notify-metro.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/styles/metro/notify-metro.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-animate-numbers/jquery.animateNumbers.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-a...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-animate-numbers/jquery.animateNumbers.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/ios7-switch/ios7.switch.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/ios7-swi...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/ios7-switch/ios7.switch.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/fastclick/fastclick.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/fastclic...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/fastclick/fastclick.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-blockui/jquery.blockUI.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-b...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-blockui/jquery.blockUI.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-bootbox/bootbox.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-bootbox/bootbox.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-slimscroll/jquery.slimscroll.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-s...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-slimscroll/jquery.slimscroll.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-sparkline/jquery-sparkline.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-s...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-sparkline/jquery-sparkline.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/js/classie.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/js/classie.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/js/modalEffects.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/js/modalEffects.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/sortable/sortable.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/sortable...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/sortable/sortable.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-fileinput/bootstrap.file-input.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-fileinput/bootstrap.file-input.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-select/bootstrap-select.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-select/bootstrap-select.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-select2/select2.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-select2/select2.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/magnific-popup/jquery.magnific-popup.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/magnific...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/magnific-popup/jquery.magnific-popup.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/pace/pace.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/pace/pac...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/pace/pace.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-datepicker/js/bootstrap-datepicker.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-icheck/icheck.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-i...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-icheck/icheck.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-calendar/js/bic_calendar.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-calendar/js/bic_calendar.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/prettify/prettify.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/prettify...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/prettify/prettify.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/shortcut/shortcut.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/shortcut...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/shortcut/shortcut.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/notify.min.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/notify.min.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:15:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/styles/metro/notify-metro.js".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/styles/metro/notify-metro.js
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/fontello/css/fontello.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/fontello...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/fontello/css/fontello.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/animate-css/animate.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/animate-...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/animate-css/animate.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jqueryui...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jqueryui/ui-lightness/jquery-ui-1.10.4.custom.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/font-awe...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap/css/bootstrap.min.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/ios7-switch/ios7-switch.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/ios7-swi...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/ios7-switch/ios7-switch.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/pace/pace.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/pace/pac...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/pace/pace.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/nifty-modal/css/component.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/nifty-mo...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/nifty-modal/css/component.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/magnific-popup/magnific-popup.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/magnific...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/magnific-popup/magnific-popup.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/bootstrap-datepicker/css/datepicker.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/bootstra...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/bootstrap-datepicker/css/datepicker.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/sortable/sortable-theme-bootstrap.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/sortable...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/sortable/sortable-theme-bootstrap.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-icheck/skins/all.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-i...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-icheck/skins/all.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/jquery-notifyjs/styles/metro/notify-metro.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/jquery-n...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/jquery-notifyjs/styles/metro/notify-metro.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
+2017/01/12 23:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "vendor/prettify/github.css".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('vendor/prettify...')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/prettify/github.css
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
+---
