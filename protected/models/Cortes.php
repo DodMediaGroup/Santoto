@@ -10,7 +10,7 @@
  * @property double $porcentaje
  *
  * The followings are the available model relations:
- * @property MateriasCurso $materia0
+ * @property GrupoMaterias $materia0
  * @property Registros[] $registroses
  */
 class Cortes extends CActiveRecord
@@ -31,10 +31,10 @@ class Cortes extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('materia, nombre, porcentaje', 'required'),
+			array('materia', 'required'),
 			array('materia', 'numerical', 'integerOnly'=>true),
 			array('porcentaje', 'numerical'),
-			array('nombre', 'length', 'max'=>255),
+			array('nombre', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, materia, nombre, porcentaje', 'safe', 'on'=>'search'),
@@ -49,7 +49,7 @@ class Cortes extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'materia0' => array(self::BELONGS_TO, 'MateriasCurso', 'materia'),
+			'materia0' => array(self::BELONGS_TO, 'GrupoMaterias', 'materia'),
 			'registroses' => array(self::HAS_MANY, 'Registros', 'corte'),
 		);
 	}

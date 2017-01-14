@@ -9,10 +9,10 @@
  * @property integer $curso
  *
  * The followings are the available model relations:
- * @property AlumnosGrupo[] $alumnosGrupos
- * @property Periodos $periodo0
+ * @property GrupoAlumnos[] $grupoAlumnoses
+ * @property GrupoMaterias[] $grupoMateriases
  * @property Cursos $curso0
- * @property MateriasCurso[] $materiasCursos
+ * @property Periodos $periodo0
  */
 class Grupos extends CActiveRecord
 {
@@ -48,10 +48,10 @@ class Grupos extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'alumnosGrupos' => array(self::HAS_MANY, 'AlumnosGrupo', 'grupo'),
-			'periodo0' => array(self::BELONGS_TO, 'Periodos', 'periodo'),
+			'grupoAlumnoses' => array(self::HAS_MANY, 'GrupoAlumnos', 'grupo'),
+			'grupoMateriases' => array(self::HAS_MANY, 'GrupoMaterias', 'grupo'),
 			'curso0' => array(self::BELONGS_TO, 'Cursos', 'curso'),
-			'materiasCursos' => array(self::HAS_MANY, 'MateriasCurso', 'curso'),
+			'periodo0' => array(self::BELONGS_TO, 'Periodos', 'periodo'),
 		);
 	}
 

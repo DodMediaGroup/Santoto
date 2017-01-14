@@ -1,26 +1,26 @@
 <?php
 
 /**
- * This is the model class for table "alumnos_grupo".
+ * This is the model class for table "grupo_alumnos".
  *
- * The followings are the available columns in table 'alumnos_grupo':
+ * The followings are the available columns in table 'grupo_alumnos':
  * @property integer $id
  * @property integer $grupo
  * @property integer $alumno
  *
  * The followings are the available model relations:
- * @property Grupos $grupo0
+ * @property AlumnoMaterias[] $alumnoMateriases
  * @property Alumnos $alumno0
- * @property MetasMateria[] $metasMaterias
+ * @property Grupos $grupo0
  */
-class AlumnosGrupo extends CActiveRecord
+class GrupoAlumnos extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'alumnos_grupo';
+		return 'grupo_alumnos';
 	}
 
 	/**
@@ -47,9 +47,9 @@ class AlumnosGrupo extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'grupo0' => array(self::BELONGS_TO, 'Grupos', 'grupo'),
+			'alumnoMateriases' => array(self::HAS_MANY, 'AlumnoMaterias', 'alumno'),
 			'alumno0' => array(self::BELONGS_TO, 'Alumnos', 'alumno'),
-			'metasMaterias' => array(self::HAS_MANY, 'MetasMateria', 'alumno'),
+			'grupo0' => array(self::BELONGS_TO, 'Grupos', 'grupo'),
 		);
 	}
 
@@ -96,7 +96,7 @@ class AlumnosGrupo extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return AlumnosGrupo the static model class
+	 * @return GrupoAlumnos the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

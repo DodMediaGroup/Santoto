@@ -5,13 +5,12 @@
  *
  * The followings are the available columns in table 'registros':
  * @property integer $id
- * @property integer $meta
+ * @property double $nota
+ * @property integer $materia
  * @property integer $corte
- * @property double $nota_minima
- * @property double $nota_obtenida
  *
  * The followings are the available model relations:
- * @property MetasMateria $meta0
+ * @property AlumnoMaterias $materia0
  * @property Cortes $corte0
  */
 class Registros extends CActiveRecord
@@ -32,12 +31,12 @@ class Registros extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('meta, corte, nota_minima', 'required'),
-			array('meta, corte', 'numerical', 'integerOnly'=>true),
-			array('nota_minima, nota_obtenida', 'numerical'),
+			array('nota, materia, corte', 'required'),
+			array('materia, corte', 'numerical', 'integerOnly'=>true),
+			array('nota', 'numerical'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, meta, corte, nota_minima, nota_obtenida', 'safe', 'on'=>'search'),
+			array('id, nota, materia, corte', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -49,7 +48,7 @@ class Registros extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'meta0' => array(self::BELONGS_TO, 'MetasMateria', 'meta'),
+			'materia0' => array(self::BELONGS_TO, 'AlumnoMaterias', 'materia'),
 			'corte0' => array(self::BELONGS_TO, 'Cortes', 'corte'),
 		);
 	}
@@ -61,10 +60,9 @@ class Registros extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'meta' => 'Meta',
+			'nota' => 'Nota',
+			'materia' => 'Materia',
 			'corte' => 'Corte',
-			'nota_minima' => 'Nota Minima',
-			'nota_obtenida' => 'Nota Obtenida',
 		);
 	}
 
@@ -87,10 +85,9 @@ class Registros extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('meta',$this->meta);
+		$criteria->compare('nota',$this->nota);
+		$criteria->compare('materia',$this->materia);
 		$criteria->compare('corte',$this->corte);
-		$criteria->compare('nota_minima',$this->nota_minima);
-		$criteria->compare('nota_obtenida',$this->nota_obtenida);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
