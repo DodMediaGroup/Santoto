@@ -1,28 +1,21 @@
 <?php
 
 /**
- * This is the model class for table "grupo_materias".
+ * This is the model class for table "santoto_configs".
  *
- * The followings are the available columns in table 'grupo_materias':
+ * The followings are the available columns in table 'santoto_configs':
  * @property integer $id
- * @property integer $grupo
- * @property integer $materia
- * @property double $nota_maxima
- *
- * The followings are the available model relations:
- * @property AlumnoMaterias[] $alumnoMateriases
- * @property Cortes[] $cortes
- * @property Grupos $grupo0
- * @property Materias $materia0
+ * @property string $nombre
+ * @property string $value
  */
-class GrupoMaterias extends CActiveRecord
+class SantotoConfigs extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'grupo_materias';
+		return 'santoto_configs';
 	}
 
 	/**
@@ -33,12 +26,12 @@ class GrupoMaterias extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('grupo, materia, nota_maxima', 'required'),
-			array('grupo, materia', 'numerical', 'integerOnly'=>true),
-			array('nota_maxima', 'numerical'),
+			array('nombre', 'required'),
+			array('nombre', 'length', 'max'=>45),
+			array('value', 'length', 'max'=>155),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, grupo, materia, nota_maxima', 'safe', 'on'=>'search'),
+			array('id, nombre, value', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,10 +43,6 @@ class GrupoMaterias extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'alumnoMateriases' => array(self::HAS_MANY, 'AlumnoMaterias', 'materia'),
-			'cortes' => array(self::HAS_MANY, 'Cortes', 'materia'),
-			'grupo0' => array(self::BELONGS_TO, 'Grupos', 'grupo'),
-			'materia0' => array(self::BELONGS_TO, 'Materias', 'materia'),
 		);
 	}
 
@@ -64,9 +53,8 @@ class GrupoMaterias extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'grupo' => 'Grupo',
-			'materia' => 'Materia',
-			'nota_maxima' => 'Nota Maxima',
+			'nombre' => 'Nombre',
+			'value' => 'Value',
 		);
 	}
 
@@ -89,9 +77,8 @@ class GrupoMaterias extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('grupo',$this->grupo);
-		$criteria->compare('materia',$this->materia);
-		$criteria->compare('nota_maxima',$this->nota_maxima);
+		$criteria->compare('nombre',$this->nombre,true);
+		$criteria->compare('value',$this->value,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -102,7 +89,7 @@ class GrupoMaterias extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return GrupoMaterias the static model class
+	 * @return SantotoConfigs the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

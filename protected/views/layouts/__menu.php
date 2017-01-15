@@ -9,6 +9,13 @@ $path = explode("/",Yii::app()->request->pathInfo);
     </a>
 </li>
 
+<li>
+    <a href="<?php echo $this->createUrl('grupos/admin') ?>" class="<?php echo (strtolower($path[0]) == 'grupos')?'active':''; ?>">
+        <i class="fa fa-group"></i>
+        <span>Grupos</span>
+    </a>
+</li>
+
 <li class='has_sub'>
     <a href='#' class="<?php echo (strtolower($path[0]) == 'pensul')?'active':''; ?>">
         <i class='fa fa-building-o'></i>
