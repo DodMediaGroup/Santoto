@@ -1597,3 +1597,289 @@ Stack trace:
 REQUEST_URI=/dodmediagroup/projects/santoto/project/vendor/prettify/github.css
 HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/login
 ---
+2017/01/14 18:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "grupos/admin".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/admin')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/admin
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/pensul/periodos
+---
+2017/01/14 19:44:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "grupos__create".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('grupos__create')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('grupos__create')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/grupos__...')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/grupos__create
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/14 19:54:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "materias".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('materias')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('materias')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/materias')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/materias
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/14 19:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('materias/view')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/materias/3
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/14 19:58:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('materias/view')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/materias/4
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/14 20:03:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "materias".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('materias')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('materias')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/materias')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/materias/6/
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/14 20:03:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('materias/view')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/materias/7
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/14 20:04:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "materias".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('materias')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('materias')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/materias')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/materias/8/
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/15 00:27:17 [error] [php] Undefined variable: cortes (C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\grupos\grupos__form.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(869): GruposController->renderFile()
+#1 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\grupos\grupos.php(60): GruposController->renderPartial()
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CBaseController.php(95): GruposController->renderInternal()
+#4 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(869): GruposController->renderFile()
+#5 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(782): GruposController->renderPartial()
+#6 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\GruposController.php(47): GruposController->render()
+#7 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\actions\CInlineAction.php(49): GruposController->actionAdmin()
+#8 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(133): GruposController->runAction()
+#10 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CInlineFilter.php(58): GruposController->filterAccessControl()
+#13 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(265): GruposController->runActionWithFilters()
+#16 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): GruposController->run()
+#17 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/admin
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\grupos\grupos__form.php (23)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\grupos\grupos.php (60)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\GruposController.php (47)
+2017/01/15 00:38:16 [error] [php] Object of class SantotoConfigs could not be converted to int (C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\GruposController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(133): GruposController->runAction()
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CInlineFilter.php(58): GruposController->filterAccessControl()
+#4 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(265): GruposController->runActionWithFilters()
+#7 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): GruposController->run()
+#8 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/grupos__create
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\GruposController.php (63)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/15 01:06:25 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "number".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\grupos\materias.php(53): CComponent->__call('number', Array)
+#1 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\grupos\materias.php(53): CActiveForm->number(Object(Cortes), 'porcentaje', Array)
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(782): CController->renderPartial('materias', Array, true)
+#6 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\GruposController.php(86): CController->render('materias', Array)
+#7 [internal function]: GruposController->actionMaterias('11')
+#8 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(GruposController), Array)
+#9 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(GruposController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('materias')
+#19 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/materias')
+#20 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/materias/11/
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/15 01:52:36 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "hidden".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\grupos\materias.php(53): CComponent->__call('hidden', Array)
+#1 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\grupos\materias.php(53): CActiveForm->hidden(Object(Cortes), 'id')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(782): CController->renderPartial('materias', Array, true)
+#6 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\GruposController.php(86): CController->render('materias', Array)
+#7 [internal function]: GruposController->actionMaterias('11')
+#8 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(GruposController), Array)
+#9 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(GruposController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('materias')
+#19 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/materias')
+#20 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/materias/11/
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/15 03:07:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cortes".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('cortes')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('cortes')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/cortes')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/cortes/1
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/materias/11/
+---
+2017/01/15 03:08:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cortes".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('cortes')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('cortes')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/cortes')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/cortes/1
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/materias/11/
+---
+2017/01/15 03:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cortes".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('cortes')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('cortes')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/cortes')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/cortes/1
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/materias/11/
+---
+2017/01/15 03:18:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('cortes')
+#9 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/cortes/m...')
+#10 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/cortes/materias/11
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/materias/11/
+---
+2017/01/15 03:19:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('cortes')
+#9 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/cortes/m...')
+#10 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/cortes/materias/11/
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/materias/11/
+---
+2017/01/15 03:19:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('materias/view')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/materias/11
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/materias/11/
+---
+2017/01/15 03:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('materias/view')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/materias/11
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/materias/11/
+---
+2017/01/15 03:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('materias/view')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/materias/11
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/materias/11/
+---
