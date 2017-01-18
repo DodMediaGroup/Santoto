@@ -44,6 +44,9 @@
                                         <a href="<?php echo $this->createUrl('grupos/materias/'.$grupo->id); ?>" class="btn btn-default" data-toggle="tooltip" title="Materias">
                                             <i class="fa fa-book"></i>
                                         </a>
+                                        <a href="<?php echo $this->createUrl('grupos/alumnos/'.$grupo->id); ?>" class="btn btn-default" data-toggle="tooltip" title="Alumnos">
+                                            <i class="fa fa-group"></i>
+                                        </a>
                                     </div>
                                 </td>
                             </tr>

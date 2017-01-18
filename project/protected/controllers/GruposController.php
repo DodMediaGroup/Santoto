@@ -20,6 +20,8 @@ class GruposController extends Controller {
                     'grupos__create',
                     'materias',
                     'cortes',
+
+                    'alumnos', 'add_alumno',
                 ),
                 'users'=>array('@'),
                 'expression'=>'MyMethods::isAdmin()',
@@ -104,6 +106,45 @@ class GruposController extends Controller {
         throw new CHttpException(404, 'The requested page does not exist');
     }
 
+    public function actionAlumnos($id){
+        $cs = Yii::app()->getClientScript();
+        $cs->registerScriptFile(Yii::app()->baseUrl.'/js/modules/grupos.js', CClientScript::POS_END);
+
+        $grupo = $this->loadGrupo($id);
+
+        $this->render('alumnos', array(
+            'grupo'=>$grupo
+        ));
+    }
+    public function actionAdd_alumno($id){
+        if(isset($_GET['alumno'])){
+            $grupo = $this->loadGrupo($id);
+            $alumno = $this->loadAlumno($_GET['alumno']);
+            if($alumno->user0->estado != 1)
+                throw new CHttpException(404, 'The request page does not exist');
+            else{
+                $exist = GrupoAlumnos::model()->findByAttributes(array(
+                    'grupo'=>$grupo->id,
+                    'alumno'=>$alumno->id));
+                if($exist == null){
+                    $model = new GrupoAlumnos;
+                    $model->grupo = $grupo->id;
+                    $model->alumno = $alumno->id;
+                    if($model->save()){
+                        foreach ($grupo->grupoMateriases as $key=>$materia){
+                            $modelMateria = new AlumnoMaterias;
+                            $modelMateria->alumno = $model->id;
+                            $modelMateria->materia = $materia->id;
+                            $modelMateria->save();
+                        }
+                    }
+                }
+                $this->redirect(array('/grupos/alumnos/'.$id));
+            }
+        }
+    }
+
+
     private function loadGrupo($id){
         $grupo = Grupos::model()->findByPk($id);
         if($grupo == null)
@@ -115,5 +156,11 @@ class GruposController extends Controller {
         if($corte == null)
             throw new CHttpException(404, 'The requested page does not exist');
         return $corte;
+    }
+    private function loadAlumno($id){
+        $alumno = Alumnos::model()->findByPk($id);
+        if($alumno == null)
+            throw new CHttpException(404, 'The requested page does not exist');
+        return $alumno;
     }
 }

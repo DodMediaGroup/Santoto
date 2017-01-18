@@ -113,4 +113,20 @@ class Alumnos extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	public function getGroup(){
+	    $group = null;
+        $periodo = Periodos::model()->findByAttributes(array('estado'=>1));
+        if($periodo != null){
+            $groups = Grupos::model()->findAllByAttributes(array('periodo'=>$periodo->id));
+            foreach ($groups as $key=>$value){
+                $grupActive = GrupoAlumnos::model()->findByAttributes(array('grupo'=>$value->id, 'alumno'=>$this->id));
+                if($grupActive != null){
+                    $group = $grupActive;
+                    break;
+                }
+            }
+        }
+	    return $group;
+    }
 }

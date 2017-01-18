@@ -1971,3 +1971,64 @@ in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
 2017/01/17 05:27:20 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
 in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (46)
 in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/18 20:38:59 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (46)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/18 21:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "alumnos".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('alumnos')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('alumnos')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/alumnos')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/alumnos/11
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/18 21:19:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "alumnos".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('alumnos')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('alumnos')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('grupos/alumnos')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/grupos/alumnos/11
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/18 22:06:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getlist".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('getlist')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('getlist')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('alumnos/getList')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/alumnos/getList
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/alumnos/11
+---
+2017/01/18 22:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getlist".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('getlist')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('getlist')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('alumnos/getList')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/alumnos/getList?username=123
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/alumnos/11
+---
+2017/01/18 23:29:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('view')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('view')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('alumnos/view')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/alumnos/11
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/alumnos/11
+---
+2017/01/18 23:47:15 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (48)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)

@@ -17,7 +17,9 @@ class AlumnosController extends Controller {
             array('allow',
                 'actions'=>array(
                     'admin',
-                    'create'
+                    'create',
+
+                    'getList',
                 ),
                 'users'=>array('@'),
                 'expression'=>'MyMethods::isAdmin()',
@@ -65,5 +67,36 @@ class AlumnosController extends Controller {
         $this->render('create', array(
             'model'=>$model
         ));
+    }
+
+    public function actionGetList(){
+        if(Yii::app()->request->isAjaxRequest && isset($_GET['username'])){
+            $username = (isset($_GET['username']))?trim($_GET['username']):'';
+            $alumnos = array();
+
+            if($username != ''){
+                $dbAlumnos = Alumnos::model()->findAll(array(
+                    'condition'=>'t.username like "%'.$username.'%"',
+                    'order'=>'t.apellidos ASC'
+                ));
+                foreach ($dbAlumnos as $key=>$alumno){
+                    if($alumno->user0->estado == 1){
+                        $group = $alumno->getGroup();
+                        $alumnos[] = array(
+                            'id'=>$alumno->id,
+                            'username'=>$alumno->username,
+                            'nombres'=>$alumno->nombres,
+                            'apellidos'=>$alumno->apellidos,
+                            'email'=>$alumno->email,
+                            'grupo'=>($group != null)?$group->id:''
+                        );
+                    }
+                }
+            }
+
+            echo CJSON::encode($alumnos);
+        }
+        else
+            throw new CHttpException(404, 'The requested page does not exist');
     }
 }

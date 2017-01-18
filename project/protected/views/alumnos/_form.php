@@ -45,7 +45,6 @@
                     <?php echo $form->label($model, 'email', array('class'=>'control-label')); ?>
                     <?php echo $form->emailField($model, 'email', array(
                         'class'=>'form-control',
-                        'required'=>true,
                         'maxlength'=>155
                     )); ?>
                 </div>
