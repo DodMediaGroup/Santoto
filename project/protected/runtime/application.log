@@ -1883,3 +1883,91 @@ Stack trace:
 REQUEST_URI=/dodmediagroup/projects/santoto/project/materias/11
 HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/materias/11/
 ---
+2017/01/16 22:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "alumnos/admin".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('alumnos/admin')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/alumnos/admin
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/grupos/admin
+---
+2017/01/16 22:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "alumnos/create".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('alumnos/create')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/alumnos/create
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/alumnos/admin
+---
+2017/01/16 22:51:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "alumnos/admin".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('alumnos/admin')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/alumnos/admin
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/alumnos/create
+---
+2017/01/17 02:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('alumnos/create')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/alumnos/create
+HTTP_REFERER=http://localhost/dodmediagroup/projects/santoto/project/alumnos/admin
+---
+2017/01/17 03:30:25 [error] [php] Undefined variable: cortes (C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\alumnos\_form.php:24)
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(869): AlumnosController->renderFile()
+#1 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\alumnos\create.php(9): AlumnosController->renderPartial()
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CBaseController.php(95): AlumnosController->renderInternal()
+#4 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(869): AlumnosController->renderFile()
+#5 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(782): AlumnosController->renderPartial()
+#6 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php(42): AlumnosController->render()
+#7 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\actions\CInlineAction.php(49): AlumnosController->actionCreate()
+#8 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(133): AlumnosController->runAction()
+#10 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CInlineFilter.php(58): AlumnosController->filterAccessControl()
+#13 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(265): AlumnosController->runActionWithFilters()
+#16 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): AlumnosController->run()
+#17 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/santoto/project/alumnos/create
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\alumnos\_form.php (24)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\views\alumnos\create.php (9)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (42)
+2017/01/17 04:13:20 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (45)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/17 05:10:32 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (45)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/17 05:10:35 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (45)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/17 05:12:33 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (45)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/17 05:12:44 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (45)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/17 05:13:43 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (45)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/17 05:26:11 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (45)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)
+2017/01/17 05:27:20 [warning] [application] Failed to set unsafe attribute "password" of "Alumnos".
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\protected\controllers\AlumnosController.php (46)
+in C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php (13)

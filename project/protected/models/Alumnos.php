@@ -33,13 +33,15 @@ class Alumnos extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user, username, nombres, apellidos', 'required'),
+			array('user, username, nombres, apellidos', 'required', 'on' => 'update'),
 			array('user', 'numerical', 'integerOnly'=>true),
 			array('username, email', 'length', 'max'=>155),
 			array('nombres, apellidos', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, user, username, nombres, apellidos, email', 'safe', 'on'=>'search'),
+
+            array('username, nombres, apellidos', 'required', 'on' => 'create'),
 		);
 	}
 
