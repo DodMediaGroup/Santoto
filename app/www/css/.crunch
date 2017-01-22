@@ -1,0 +1,27 @@
+{
+	"files": {
+		"style.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "style.css",
+					"options": {
+						"compress": true,
+						"ieCompat": true,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"layouts.less",
+				"layouts/minimal.less",
+				"modules.less",
+				"modules/pages.less",
+				"modules/pages/login.less"
+			]
+		}
+	}
+}
