@@ -281,16 +281,6 @@ class MyMethods extends CApplicationComponent
         else
             return false;
     }
-    public static function isAdmin(){
-        if(!Yii::app()->user->isGuest){
-            $admin = Administrador::model()->findByAttributes(array(
-                'id'=>Yii::app()->user->getState('user__id'),
-                'email'=>Yii::app()->user->getState('user__email')));
-            if($admin != null)
-                return true;
-        }
-        return false;
-    }
 
     public static function getModelErrors($errors){
         $error = '';
@@ -306,5 +296,59 @@ class MyMethods extends CApplicationComponent
         $dataReader = $command->query();
 
         return $dataReader->readAll();
+    }
+
+
+    /***** VALIDACIONES DE USUARIO ****/
+    public static function isAdmin(){
+        if(!Yii::app()->user->isGuest){
+            $admin = Administrador::model()->findByAttributes(array(
+                'id'=>Yii::app()->user->getState('user__id'),
+                'email'=>Yii::app()->user->getState('user__email')));
+            if($admin != null)
+                return true;
+        }
+        return false;
+    }
+
+
+    public static function tokenAuthentication(){
+        header("Access-Control-Allow-Headers: Authorization, content-type");
+
+        if($_SERVER['REQUEST_METHOD'] == 'OPTIONS')
+            return true;
+
+        $alumno = MyMethods::tokenAuthAlumno();
+        if($alumno != null)
+            return true;
+
+        return false;
+    }
+    public static function tokenAuthAlumno(){
+        $payload = MyMethods::parse_token();
+
+        if($payload != null){
+            $alumno = Alumnos::model()->findByAttributes(array('user'=>$payload['sub']));
+
+            if($alumno != null && $alumno->user0->estado == 1)
+                return $alumno;
+        }
+
+        return null;
+    }
+    public static function parse_token(){
+        $headers = getallheaders();
+        if(!isset($headers['Authorization']))
+            return null;
+        $token = explode(' ', $headers['Authorization']);
+        $secretKey = base64_decode(Yii::app()->params['jwtKey']);
+
+        try{
+            $payload = (array) JWT::decode($token[1], $secretKey, array('HS256'));
+        } catch (Exception $e){
+            $payload = null;
+        }
+
+        return $payload;
     }
 }

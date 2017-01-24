@@ -4,13 +4,13 @@
       <img src="img/logo.png" alt="Santoto">
     </figure>
 
-    <form action="#">
+    <form ng-submit="submit()" method="post">
       <div class="list list-inset">
         <label class="item item-input">
-          <input type="text" placeholder="Username" required>
+          <input type="text" placeholder="Username" ng-model="login.username" required>
         </label>
         <label class="item item-input">
-          <input type="password" placeholder="Password" required>
+          <input type="password" placeholder="Password" ng-model="login.password" required>
         </label>
       </div>
 

@@ -7,7 +7,8 @@ var app = angular.module('starter', [
   'ionic',
 
   'starter.core',
-  'starter.pages'
+  'starter.pages',
+  'starter.materias'
 ]);
 
 app.run(function($ionicPlatform) {

@@ -20,4 +20,41 @@ class Controller extends CController
 	 * for more details on how to specify this property.
 	 */
 	public $breadcrumbs=array();
+
+
+    /**
+     * Controller constructor.
+     */
+    public function init()
+    {
+        header("Access-Control-Allow-Origin: *");
+        header("Access-Control-Allow-Headers: authorization, content-type");
+    }
+
+    public function JsonResponse($body=array(),$status=200){
+        $content_type = 'application/json';
+        $status_header = 'HTTP/1.1 ' . $status . ' ' . $this->_getStatusCodeMessage($status);
+
+        header('Content-type: ' . $content_type);
+        header($status_header);
+
+        echo CJSON::encode($body);
+
+        Yii::app()->end();
+    }
+
+    private function _getStatusCodeMessage($status)
+    {
+        $codes = Array(
+            200 => 'OK',
+            400 => 'Bad Request',
+            401 => 'Unauthorized',
+            402 => 'Payment Required',
+            403 => 'Forbidden',
+            404 => 'Not Found',
+            500 => 'Internal Server Error',
+            501 => 'Not Implemented',
+        );
+        return (isset($codes[$status])) ? $codes[$status] : '';
+    }
 }

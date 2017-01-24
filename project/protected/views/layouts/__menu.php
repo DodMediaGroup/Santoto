@@ -9,6 +9,7 @@ $path = explode("/",Yii::app()->request->pathInfo);
     </a>
 </li>
 
+<?php if(!Yii::app()->user->isGuest){ ?>
 <li class='has_sub'>
     <a href='#' class="<?php echo (strtolower($path[0]) == 'alumnos')?'active':''; ?>">
         <i class='icon-graduation-cap'></i>
@@ -64,3 +65,4 @@ $path = explode("/",Yii::app()->request->pathInfo);
         </li>
     </ul>
 </li>
+<?php } ?>

@@ -17,7 +17,9 @@ return array(
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
-		'application.components.*',
+        'application.components.*',
+
+        'application.vendors.JWT.*',
 	),
 
 	'modules'=>array(
@@ -30,6 +32,7 @@ return array(
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
 
+        'api',
 	),
 
 	// application components
@@ -50,6 +53,12 @@ return array(
                 'gii'=>'gii',
                 'gii/<controller:\w+>'=>'gii/<controller>',
                 'gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
+
+                'api'=>'api',
+                'api/<action:\w+>'=>'api/default/<action>',
+                'api/<controller:\w+>/<id:\d+>'=>'api/<controller>/view',
+                'api/<controller:\w+>/<action:\w+>/<id:\d+>'=>'api/<controller>/<action>',
+                'api/<controller:\w+>/<action:\w+>'=>'api/<controller>/<action>',
 
                 '<action:\w+>'=>'site/<action>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
@@ -90,5 +99,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
+
+        'jwtKey'=>'SantotoJwt',
 	),
 );
