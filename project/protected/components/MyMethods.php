@@ -328,9 +328,10 @@ class MyMethods extends CApplicationComponent
         $payload = MyMethods::parse_token();
 
         if($payload != null){
-            $alumno = Alumnos::model()->findByAttributes(array('user'=>$payload['sub']));
+            $alumno = Alumnos::model()->findByAttributes(array('id'=>$payload['sub']));
+            $grupo = $alumno->getGroup();
 
-            if($alumno != null && $alumno->user0->estado == 1)
+            if($alumno != null && $alumno->user0->estado == 1 && $grupo)
                 return $alumno;
         }
 

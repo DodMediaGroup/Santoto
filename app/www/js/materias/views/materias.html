@@ -1,1 +1,17 @@
-<h2>Hola desde materias</h2>
+<div id="app-content">
+  <indicator></indicator>
+  <ion-view view-title="Materias">
+    <ion-content class="padding">
+
+      <ion-list>
+        <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="materia in materias" type="item-text-wrap" href="#/materias/{{ materia.meta == '0' ? ('asignar-meta/'+materia.id) : (materia.id) }}">
+          <img ng-src="img/icon__book.png">
+          <h2>{{materia.nombre}}</h2>
+          <p>{{materia.descripcion}}</p>
+          <i class="icon ion-chevron-right icon-accessory"></i>
+        </ion-item>
+      </ion-list>
+
+    </ion-content>
+  </ion-view>
+</div>

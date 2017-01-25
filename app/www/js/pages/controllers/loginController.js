@@ -4,11 +4,12 @@ appPages
     '$scope',
     '$auth',
     '$state',
+    '$window',
 
     '$ionicPopup',
 
     'indicator',
-    function($rootScope, $scope, $auth, $state, $ionicPopup, indicator){
+    function($rootScope, $scope, $auth, $state, $window, $ionicPopup, indicator){
       $scope.login = {};
 
       $scope.submit = function(){
@@ -16,7 +17,7 @@ appPages
         $auth.login($scope.login)
           .then(function(response){
             if(response.status == 200)
-              $state.go('default.materias', {}, {location:'replace', reload:true});
+              $window.location.reload();
             else{
               $ionicPopup.alert({
                 title: 'Error',

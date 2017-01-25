@@ -34,6 +34,8 @@ class UserIdentity extends CUserIdentity
         $alumno = Alumnos::model()->findByAttributes(array('username'=>$this->username));
         if(!is_object($alumno))
             $this->errorCode = self::ERROR_USERNAME_INVALID;
+        elseif (!$alumno->getGroup())
+            $this->errorCode = self::ERROR_USERNAME_INVALID;
         else{
             $user = Users::model()->findByPk($alumno->user);
             if($this->authenticateUser($user)){

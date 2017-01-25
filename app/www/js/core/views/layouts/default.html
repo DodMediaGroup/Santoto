@@ -1,7 +1,29 @@
 <section class="layout layout__default">
-  <h1>Hola desde default</h1>
-  <div id="app-content">
-    <indicator></indicator>
-    <ion-nav-view></ion-nav-view>
-  </div>
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-tabs class="tabs-icon-top tabs-positive">
+
+    <ion-tab title="Materias" icon="ion-filing" href="#/materias">
+      <ion-nav-view name="tab-materias"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="Recordatorios" icon="ion-calendar" href="#/recordatorios">
+      <ion-nav-view name="tab-recordatorios"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="Salir" icon="ion-log-out" href="#/logout">
+    </ion-tab>
+
+  </ion-tabs>
+
+  <ion-footer-bar align-title="left" class="info__user bar-stable">
+    <div>
+      <p><strong>Nombre: </strong> {{ user.nombres }} {{ user.apellidos }}</p>
+      <p><strong>Grado: </strong> {{ user.grupo.curso }}</p>
+      <p><strong>Año: </strong> {{ user.grupo.anio }}</p>
+    </div>
+  </ion-footer-bar>
 </section>

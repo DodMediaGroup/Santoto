@@ -18,6 +18,7 @@
 			"sources": [
 				"components.less",
 				"components/indicator.less",
+				"components/user-info.less",
 				"layouts.less",
 				"layouts/minimal.less",
 				"modules.less",
