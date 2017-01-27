@@ -1,9 +1,29 @@
 <div id="app-content">
   <indicator></indicator>
-  <ion-view view-title="Asignar meta de ">
+  <ion-view view-title="Asignar meta de {{ materia.materia.nombre }}">
     <ion-content class="padding">
 
-      <h3>TEST META</h3>
+      <h3 class="text-center">{{ materia.materia.nombre }}</h3>
+      <hr>
+
+      <p class="text-center dark" style="font-size: 2em; font-weight: bold; line-height: 1.1em; margin-top: 50px;">
+        Ingrese su meta para <br> {{ $parent.user.grupo.anio }}
+        <br>
+        <small style="font-weight: normal;">Nota Maxima: {{ materia.materia.nota_maxima }}</small>
+      </p>
+
+      <form method="post" ng-submit="asignar()">
+        <div class="list list-inset">
+          <label class="item item-input">
+            <input ng-model="materia.meta" type="number" step=0.1 min=0 max={{ materia.materia.nota_maxima }} placeholder="Nota" maxlength="4" required>
+          </label>
+        </div>
+        <div class="text-center" style="margin-top: 30px;">
+          <button type="submit" class="button button-positive">
+            ASIGNAR
+          </button>
+        </div>
+      </form>
 
     </ion-content>
   </ion-view>

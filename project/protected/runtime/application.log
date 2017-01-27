@@ -2658,3 +2658,14 @@ Stack trace:
 REQUEST_URI=/dodmediagroup/projects/santoto/project/api/alumnos/materias
 HTTP_REFERER=http://192.168.0.105:8100/
 ---
+2017/01/26 00:36:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "materia".' in C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CController.php(270): CController->missingAction('materia')
+#1 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(282): CController->run('materia')
+#2 C:\xampp\htdocs\dodmediagroup\frameworks\yii\web\CWebApplication.php(141): CWebApplication->runController('api/alumnos/mat...')
+#3 C:\xampp\htdocs\dodmediagroup\frameworks\yii\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\dodmediagroup\projects\santoto\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/santoto/project/api/alumnos/materia/3
+HTTP_REFERER=http://192.168.0.105:8100/
+---
