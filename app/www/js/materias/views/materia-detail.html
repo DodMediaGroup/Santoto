@@ -3,7 +3,29 @@
   <ion-view view-title="{{ materia.materia.nombre }}">
     <ion-content class="padding">
 
-      <h3>Hola desde detail</h3>
+      <div style="border-bottom: 1px dashed #dddddd; margin-bottom: 12px; padding: 12px 0px 12px;">
+        <p class="dark" style="font-size: 1.8em; font-style: italic; margin: auto; max-width: 50%;">
+          Meta: <strong style="float: right; font-size: 1.2em;">{{ materia.meta }}</strong></p>
+      </div>
+
+      <ion-list class="list-inset">
+        <ion-item class="item-input-inset" ng-repeat="corte in materia.cortes">
+          <label class="item-input-wrapper" style="padding: 6px 6px;">
+            <span style="width: 230px;">
+              {{ corte.nombre }}:
+            </span>
+            <strong class="dark" style="font-size: 1.3em; {{ (!corte.registro)?'opacity: .7;':'' }} "><span ng-class="materia.materia.nota_maxima < corte.calculo.esperado ? 'assertive':''">{{ ((corte.registro)?corte.registro.nota:corte.calculo.esperado) | number:2 }}</span></strong>
+          </label>
+          <button ng-click="asignarCorte(corte)" ng-show="!corte.registro" class="button button-positive button-small">Asignar</button>
+        </ion-item>
+      </ion-list>
+
+      <hr style="margin-top: 24px;">
+
+      <div style="padding: 12px 0px 12px;" ng-if="materia.completado">
+        <p class="dark text-center" style="font-size: 1.8em;">
+          Nota Final: <strong ng-class="materia.nota_final < materia.meta ? 'assertive':'balanced'" style="font-size: 1.2em;">{{ materia.nota_final | number:2 }}</strong></p>
+      </div>
 
     </ion-content>
   </ion-view>

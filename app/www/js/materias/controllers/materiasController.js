@@ -27,6 +27,8 @@ appMaterias
           });
       };
 
-      $scope.loadMaterias();
+      $scope.$on('$ionicView.beforeEnter', function(){
+        $scope.loadMaterias();
+      });
     }
   ]);

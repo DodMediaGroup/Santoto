@@ -51,7 +51,7 @@
                                             )); ?>
                                                 <div class="input-group" style="width:120px;">
                                                     <?php echo $form->hiddenField($corte, 'id'); ?>
-                                                    <?php echo $form->numberField($corte, 'porcentaje', array('class'=>'form-control','min'=>0,'max'=>100)); ?>
+                                                    <?php echo $form->numberField($corte, 'porcentaje', array('class'=>'form-control','min'=>0,'max'=>100,'disabled'=>true)); ?>
                                                     <span class="input-group-addon">%</span>
                                                 </div>
                                             <?php $this->endWidget(); ?>
