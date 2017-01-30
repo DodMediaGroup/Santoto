@@ -20,6 +20,8 @@ class AlumnosController extends Controller {
                     'materias', 'materia',
                     'asignar_meta',
                     'nota_corte',
+
+                    'recordatorios', 'recordatorios_create', 'recordatorio',
                 ),
                 'expression'=>'MyMethods::tokenAuthentication()',
             ),
@@ -173,6 +175,104 @@ class AlumnosController extends Controller {
 
                 $this->JsonResponse(array(), 400);
                 return;
+            }
+
+            $this->JsonResponse(array(), 401);
+        }
+    }
+
+    public function actionRecordatorios(){
+        if($_SERVER['REQUEST_METHOD'] == 'GET') {
+            $alumno = MyMethods::tokenAuthAlumno();
+            if ($alumno != null) {
+                $grupo = $alumno->getGroup();
+
+                $recordatorios = MyMethods::querySql('select r.*, UNIX_TIMESTAMP(r.fecha_recordatorio) as fecha from recordatorios r where r.materia in (select id from alumno_materias am where am.alumno = ' . $grupo->id . ') and r.estado=1 and fecha_recordatorio >= DATE_SUB(NOW(),INTERVAL 15 DAY) order by r.fecha_recordatorio DESC;');
+                $recordatoriosResponse = array();
+                foreach ($recordatorios as $key=>$recordatorio){
+                    $materia = AlumnoMaterias::model()->findByPk($recordatorio['materia']);
+                    $recordatoriosResponse[] = array(
+                        'id'=>$recordatorio['id'],
+                        'titulo'=>$recordatorio['titulo'],
+                        'descripcion'=>$recordatorio['descripcion'],
+                        'fecha'=>intval($recordatorio['fecha']) * 1000,
+                        'materia'=>array(
+                            'id'=>$materia->id,
+                            'nombre'=>$materia->materia0->materia0->nombre
+                        )
+                    );
+                }
+
+                $this->JsonResponse($recordatoriosResponse);
+                return;
+            }
+
+            $this->JsonResponse(array(), 401);
+        }
+    }
+
+    public function actionRecordatorios_create(){
+        if($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $alumno = MyMethods::tokenAuthAlumno();
+            if ($alumno != null) {
+                $requestData = json_decode(file_get_contents("php://input"));
+                $grupo = $alumno->getGroup();
+                $materia = AlumnoMaterias::model()->findByAttributes(array(
+                    'id'=>(isset($requestData->materia))?$requestData->materia:'',
+                    'alumno'=>$grupo->id
+                ));
+                if($materia != null){
+                    $recordatorio = new Recordatorios;
+                    $recordatorio->titulo = (isset($requestData->titulo))?$requestData->titulo:null;
+                    $recordatorio->descripcion = (isset($requestData->descripcion))?$requestData->descripcion:null;
+                    $recordatorio->fecha_recordatorio = (isset($requestData->fecha))?(new CDbExpression('FROM_UNIXTIME(' . $requestData->fecha / 1000 . ')')):null;
+                    $recordatorio->materia = $materia->id;
+                    $recordatorio->fecha_agregada = new CDbExpression('NOW()');
+
+                    if($recordatorio->save()){
+                        $recordatorioResponse = array(
+                            'id'=>$recordatorio->id,
+                            'titulo'=>$recordatorio->titulo,
+                            'descripcion'=>$recordatorio->descripcion,
+                            'fecha'=>intval($requestData->fecha),
+                            'materia'=>array(
+                                'id'=>$materia->id,
+                                'nombre'=>$materia->materia0->materia0->nombre
+                            )
+                        );
+
+                        $this->JsonResponse($recordatorioResponse);
+                        return;
+                    }
+                }
+            }
+
+            $this->JsonResponse(array(), 401);
+        }
+    }
+
+    public function actionRecordatorio($id){
+        if($_SERVER['REQUEST_METHOD'] == 'GET') {
+            $alumno = MyMethods::tokenAuthAlumno();
+            if ($alumno != null) {
+                $recordatorio = Recordatorios::model()->findByPk($id);
+                if($recordatorio != null && $recordatorio->materia0->alumno0->alumno == $alumno->id){
+                    $materia = AlumnoMaterias::model()->findByPk($recordatorio->materia);
+                    $fecha = MyMethods::querySql('select UNIX_TIMESTAMP("' . $recordatorio->fecha_recordatorio . '") as fecha');
+                    $recordatorioResponse = array(
+                        'id'=>$recordatorio->id,
+                        'titulo'=>$recordatorio->titulo,
+                        'descripcion'=>$recordatorio->descripcion,
+                        'fecha'=>intval($fecha[0]['fecha']) * 1000,
+                        'materia'=>array(
+                            'id'=>$materia->id,
+                            'nombre'=>$materia->materia0->materia0->nombre
+                        )
+                    );
+
+                    $this->JsonResponse($recordatorioResponse);
+                    return;
+                }
             }
 
             $this->JsonResponse(array(), 401);

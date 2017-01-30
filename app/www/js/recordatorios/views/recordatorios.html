@@ -2,8 +2,18 @@
   <indicator></indicator>
   <ion-view view-title="Recordatorios">
     <ion-content class="padding">
-      <h2>Hola desde recordatorios</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ducimus error, est id inventore, modi non officiis omnis quam recusandae repudiandae sapiente sed totam ullam voluptas? Delectus quaerat quod quos.</p>
+      <ion-list>
+        <ion-item class="item item-icon-left" href="#/recordatorios/agregar">
+          <i class="icon ion-plus-circled"></i>
+          Agregar recordatorio
+        </ion-item>
+        <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="recordatorio in recordatorios" type="item-text-wrap" href="#/recordatorios/ver/{{ recordatorio.id }}">
+          <img ng-src="img/icon_calendar.png">
+          <h2>{{ recordatorio.titulo}} / {{recordatorio.materia.nombre }}</h2>
+          <p>{{ recordatorio.fecha | date:'dd/MM/yyyy hh:mm a' }}</p>
+          <i class="icon ion-chevron-right icon-accessory"></i>
+        </ion-item>
+      </ion-list>
     </ion-content>
   </ion-view>
 </div>

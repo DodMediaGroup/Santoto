@@ -1,28 +1,28 @@
 <?php
 
 /**
- * This is the model class for table "alumno_materias".
+ * This is the model class for table "recordatorios".
  *
- * The followings are the available columns in table 'alumno_materias':
+ * The followings are the available columns in table 'recordatorios':
  * @property integer $id
- * @property double $meta
- * @property integer $alumno
+ * @property string $titulo
+ * @property string $descripcion
+ * @property string $fecha_recordatorio
  * @property integer $materia
+ * @property string $fecha_agregada
+ * @property integer $estado
  *
  * The followings are the available model relations:
- * @property GrupoAlumnos $alumno0
- * @property GrupoMaterias $materia0
- * @property Recordatorios[] $recordatorioses
- * @property Registros[] $registroses
+ * @property AlumnoMaterias $materia0
  */
-class AlumnoMaterias extends CActiveRecord
+class Recordatorios extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'alumno_materias';
+		return 'recordatorios';
 	}
 
 	/**
@@ -33,12 +33,13 @@ class AlumnoMaterias extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('alumno, materia', 'required'),
-			array('alumno, materia', 'numerical', 'integerOnly'=>true),
-			array('meta', 'numerical'),
+			array('titulo, fecha_recordatorio, materia', 'required'),
+			array('materia, estado', 'numerical', 'integerOnly'=>true),
+			array('titulo', 'length', 'max'=>155),
+			array('descripcion, fecha_agregada', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, meta, alumno, materia', 'safe', 'on'=>'search'),
+			array('id, titulo, descripcion, fecha_recordatorio, materia, fecha_agregada, estado', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,10 +51,7 @@ class AlumnoMaterias extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'alumno0' => array(self::BELONGS_TO, 'GrupoAlumnos', 'alumno'),
-			'materia0' => array(self::BELONGS_TO, 'GrupoMaterias', 'materia'),
-			'recordatorioses' => array(self::HAS_MANY, 'Recordatorios', 'materia'),
-			'registroses' => array(self::HAS_MANY, 'Registros', 'materia'),
+			'materia0' => array(self::BELONGS_TO, 'AlumnoMaterias', 'materia'),
 		);
 	}
 
@@ -64,9 +62,12 @@ class AlumnoMaterias extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'meta' => 'Meta',
-			'alumno' => 'Alumno',
+			'titulo' => 'Titulo',
+			'descripcion' => 'Descripcion',
+			'fecha_recordatorio' => 'Fecha Recordatorio',
 			'materia' => 'Materia',
+			'fecha_agregada' => 'Fecha Agregada',
+			'estado' => 'Estado',
 		);
 	}
 
@@ -89,9 +90,12 @@ class AlumnoMaterias extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('meta',$this->meta);
-		$criteria->compare('alumno',$this->alumno);
+		$criteria->compare('titulo',$this->titulo,true);
+		$criteria->compare('descripcion',$this->descripcion,true);
+		$criteria->compare('fecha_recordatorio',$this->fecha_recordatorio,true);
 		$criteria->compare('materia',$this->materia);
+		$criteria->compare('fecha_agregada',$this->fecha_agregada,true);
+		$criteria->compare('estado',$this->estado);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -102,7 +106,7 @@ class AlumnoMaterias extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return AlumnoMaterias the static model class
+	 * @return Recordatorios the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

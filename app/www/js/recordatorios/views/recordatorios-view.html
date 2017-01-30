@@ -1,0 +1,27 @@
+<div id="app-content">
+  <indicator></indicator>
+  <ion-view view-title="{{ recordatorio.titulo }}">
+    <ion-content class="padding">
+
+      <div class="list card" style="margin-top: 0px;">
+
+        <div class="item item-avatar">
+          <img src="img/icon_calendar.png">
+          <h2>{{ recordatorio.titulo }}</h2>
+          <p>{{ recordatorio.fecha | date:'dd/MM/yyyy hh:mm a' }}</p>
+        </div>
+
+        <div class="item item-image">
+          <p class="padding text-left">{{ recordatorio.descripcion }}</p>
+        </div>
+
+        <a class="item item-icon-right assertive text-right" href="#">
+          <i class="icon ion-android-delete"></i>
+          Borrar
+        </a>
+
+      </div>
+
+    </ion-content>
+  </ion-view>
+</div>

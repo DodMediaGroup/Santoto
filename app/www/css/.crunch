@@ -17,6 +17,7 @@
 			],
 			"sources": [
 				"components.less",
+				"components/forms.less",
 				"components/indicator.less",
 				"components/user-info.less",
 				"layouts.less",
