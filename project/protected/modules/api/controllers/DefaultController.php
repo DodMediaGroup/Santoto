@@ -27,8 +27,6 @@ class DefaultController extends Controller
 	}
 
 	public function actionLogin(){
-        header("Access-Control-Allow-Methods: POST");
-
         $request = Yii::app()->request;
         if($request->isPostRequest){
             $requestData = json_decode(file_get_contents("php://input"));
