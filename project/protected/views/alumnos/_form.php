@@ -73,7 +73,7 @@
                 </div>
                 <div class="form-group">
                     <label for="Alumnos_password" class="control-label">Password</label>
-                    <input type="text" id="Alumnos_password" name="Alumnos[password]" class="form-control" required>
+                    <input type="text" id="Alumnos_password" name="Alumnos[password]" class="form-control" <?php ($model->isNewRecord)?'required':''; ?> >
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-success">Guardar</button>

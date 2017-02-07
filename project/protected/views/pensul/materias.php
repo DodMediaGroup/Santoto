@@ -50,7 +50,9 @@
                                 </td>
                                 <td>
                                     <div class="btn-group btn-group-xs">
-
+                                        <a href="<?php echo $this->createUrl('pensul/materias__delete/'.$materia->id) ?>" class="btn btn-default link__confirm" data-cofirm__text="¿Esta seguro de eliminar la materia?" data-toggle="tooltip" title="Eliminar">
+                                            <i class="fa fa-trash-o"></i>
+                                        </a>
                                     </div>
                                 </td>
                             </tr>

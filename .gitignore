@@ -5,3 +5,5 @@ design/**/*
 **/vendor/**/*
 
 app/www/lib/**/*
+
+**/*.log

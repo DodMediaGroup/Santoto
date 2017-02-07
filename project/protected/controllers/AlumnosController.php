@@ -18,6 +18,7 @@ class AlumnosController extends Controller {
                 'actions'=>array(
                     'admin',
                     'create',
+                    'update',
 
                     'getList',
                 ),
@@ -69,6 +70,39 @@ class AlumnosController extends Controller {
         ));
     }
 
+    public function actionUpdate($id){
+        $model = $this->loadAlumno($id);
+
+        if(isset($_POST['Alumnos'])){
+            $model->setScenario('update');
+            $model->attributes = $_POST['Alumnos'];
+            if($model->validate(null, true)){
+                $usernameExist = Alumnos::model()->findByAttributes(array(
+                    'username'=>$model->username
+                ), array(
+                    'condition'=>'t.id != '.$model->id
+                ));
+                if($usernameExist == null){
+                    $model->save();
+
+                    if(isset($_POST['Alumnos']['password'])){
+                        $modelUser = $model->user0;
+                        $modelUser->password = MyMethods::crypt_blowfish($_POST['Alumnos']['password']);
+                        $modelUser->save();
+                    }
+
+                    $this->redirect(array('admin'));
+                }
+                else
+                    $model->addError('username', 'El username ingresado ya se encuentra en uso.');
+            }
+        }
+
+        $this->render('update', array(
+            'model'=>$model
+        ));
+    }
+
     public function actionGetList(){
         if(Yii::app()->request->isAjaxRequest && isset($_GET['username'])){
             $username = (isset($_GET['username']))?trim($_GET['username']):'';
@@ -98,5 +132,15 @@ class AlumnosController extends Controller {
         }
         else
             throw new CHttpException(404, 'The requested page does not exist');
+    }
+
+    private function loadAlumno($id){
+        $alumno = Alumnos::model()->findByAttributes(array(
+            'id'=>$id,
+        ));
+        if($alumno == null)
+            throw new CHttpException(404, 'The requested page does not exist');
+
+        return $alumno;
     }
 }

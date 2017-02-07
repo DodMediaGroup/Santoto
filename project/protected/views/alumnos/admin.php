@@ -51,7 +51,7 @@
                                 <td>
                                     <?php if($alumno->email != '') echo $alumno->email;
                                     else{ ?>
-                                        <a href="#"><small>Agregar email</small></a>
+                                        <a href="<?php echo $this->createUrl('alumnos/update/'.$alumno->id); ?>"><small>Agregar email</small></a>
                                     <?php } ?>
                                 </td>
                                 <td><?php
@@ -62,7 +62,9 @@
                                 </td>
                                 <td>
                                     <div class="btn-group btn-group-xs">
-
+                                        <a href="<?php echo $this->createUrl('alumnos/update/'.$alumno->id); ?>" class="btn btn-default" data-toggle="tooltip" title="Modificar">
+                                            <i class="fa fa-edit"></i>
+                                        </a>
                                     </div>
                                 </td>
                             </tr>

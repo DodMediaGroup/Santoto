@@ -48,7 +48,7 @@
                                 <td>
                                     <div class="btn-group btn-group-xs">
                                         <?php if($periodo->estado == 0){ ?>
-                                            <a href="<?php echo $this->createUrl('pensul/periodos__active/'.$periodo->id); ?>" class="btn btn-default" data-toggle="tooltip" title="Activar">
+                                            <a href="<?php echo $this->createUrl('pensul/periodos__active/'.$periodo->id); ?>" class="btn btn-default link__confirm" data-cofirm__text="¿Esta seguro de activar este periodo? Automaticamente se desactivara el periodo actualmente activo." data-toggle="tooltip" title="Activar">
                                                 <i class="fa fa-star"></i>
                                             </a>
                                         <?php } ?>

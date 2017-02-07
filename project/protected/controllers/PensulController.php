@@ -18,7 +18,7 @@ class PensulController extends Controller {
                 'actions'=>array(
                     'periodos','periodos__create','periodos__active',
                     'cursos','cursos__create',
-                    'materias','materias__create',
+                    'materias','materias__create','materias__delete',
                 ),
                 'users'=>array('@'),
                 'expression'=>'MyMethods::isAdmin()',
@@ -139,5 +139,22 @@ class PensulController extends Controller {
         }
         else
             throw new CHttpException(404, 'The requested page does not exist');
+    }
+    public function actionMaterias__delete($id){
+        $materia = $this->loadMateria($id);
+        $materia->estado = 2;
+        $materia->save();
+
+        $this->redirect(array('materias'));
+    }
+    private function loadMateria($id){
+        $materia = Materias::model()->findByAttributes(array(
+            'id'=>$id
+        ), array(
+            'condition'=>'t.estado != 2'
+        ));
+        if($materia == null)
+            throw new CHttpException(404, 'The requested page does not exist');
+        return $materia;
     }
 }

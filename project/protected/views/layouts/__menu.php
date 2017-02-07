@@ -65,4 +65,11 @@ $path = explode("/",Yii::app()->request->pathInfo);
         </li>
     </ul>
 </li>
+
+<li>
+    <a href="<?php echo $this->createUrl('settings/admin') ?>" class="<?php echo (strtolower($path[0]) == 'settings')?'active':''; ?>">
+        <i class="fa fa-cogs"></i>
+        <span>Configuracion</span>
+    </a>
+</li>
 <?php } ?>
